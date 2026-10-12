@@ -10,6 +10,8 @@ CS master's student at Northeastern in Boston. I turn messy, manual work into so
 
 ## Right now
 
+<img src="flight.svg" alt="" width="100%">
+
 > Building a computer vision project that predicts when visual tracking will fail in drone footage, for my Pattern Recognition & Computer Vision class.
 >
 > Looking for new grad software and AI engineering roles starting after I graduate in May 2027.
@@ -22,6 +24,8 @@ I've shipped production software at both of my internships, at **Pax Momentum**,
 
 ## Things I've built
 
+<img src="neurons.svg" alt="" width="100%">
+
 ### 🧠 [ThoughtMap](https://github.com/notnit03/thoughtmap)
 `Next.js` `TypeScript` `Groq`
 
@@ -30,6 +34,9 @@ Type any thought and see which brain regions it maps to, across four interactive
 **[Try it live](https://thoughtmap-five.vercel.app)** · [Code](https://github.com/notnit03/thoughtmap)
 
 ### 🌍 [AI Multilingual Meeting Notes](https://github.com/notnit03/ai-multilingual-notes-generator)
+
+<img src="wave.svg" alt="" width="100%">
+
 `Whisper` `Groq` `FastAPI` `Celery` `Redis` `PostgreSQL` `Next.js`
 
 Turns meeting audio in 80+ languages into structured English notes with summaries, action items, and decisions. After running it on 40+ hours of real audio, I traced language drift and hallucinations through the logs and made it 90% more reliable.
@@ -37,6 +44,9 @@ Turns meeting audio in 80+ languages into structured English notes with summarie
 [Code](https://github.com/notnit03/ai-multilingual-notes-generator)
 
 ### 🛰️ Flood detection from satellite images · *Patent*
+
+<img src="orbit.svg" alt="" width="100%">
+
 `PyTorch` `MobileNet` `PCA image fusion`
 
 Fused thermal and visible satellite images to train a CNN that spots floods with 96% accuracy and 18% fewer false alarms. My undergraduate thesis at VIT, patented in January 2026.
