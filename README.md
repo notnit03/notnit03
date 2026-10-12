@@ -1,37 +1,62 @@
+<sub>Hi, I'm</sub>
+
 # Nithya Vangala
 
-MS Computer Science at Northeastern, Boston. I build full-stack products with LLMs in them.
+<img src="ribbon.svg" alt="" width="100%">
 
-Most recently at **Pax Momentum**, a Boston VC firm, where I shipped two production platforms — an internal fund-operations system and an investor portal — and wired LLM APIs into the deal-sourcing workflow.
+### I build AI products people actually use, and I don't ship anything I haven't tried to break first.
 
----
+CS master's student at Northeastern in Boston. I turn messy, manual work into software that just runs: LLM pipelines, full-stack platforms, and lately, computer vision for drones. Off the clock, I'm a dancer. 💃
 
-### Things I've built
+## Right now
 
-**[ThoughtMap](https://github.com/notnit03/thoughtmap)** — Classifies free-text thoughts into brain regions using constrained LLM output, rendered across four anatomical views with automatic view selection. Next.js, TypeScript, Groq. **[Live](https://thoughtmap-five.vercel.app)**
+> Building a computer vision project that predicts when visual tracking will fail in drone footage, for my Pattern Recognition & Computer Vision class.
+>
+> Looking for new grad software and AI engineering roles starting after I graduate in May 2027.
 
-**[AI Multilingual Meeting Notes Generator](https://github.com/notnit03/ai-multilingual-notes-generator)** — Whisper and Groq pipeline turning audio in 80+ languages into structured English meeting notes. Async Celery/Redis/PostgreSQL architecture for concurrent jobs.
+## Shipped in the real world
 
-**[Weather App](https://github.com/notnit03/weather-app)** — Full-stack weather service with a complete CRUD records API, CSV/JSON export, and error handling. React, FastAPI, SQLAlchemy.
+I've shipped production software at both of my internships, at **Pax Momentum**, a US startup that invests in other startups, and at **Kuwait Oil Company**. Real users, real data, real stakes.
 
----
+*That work is confidential, but I'm happy to walk you through how I built it.*
 
-### Not on GitHub
+## Things I've built
 
-**Campus Clubs & Chapters Management System** — Normalized MySQL schema for club, member, event, and RSVP management, with indexing and stored procedures for query performance, and role-based access separating student, officer, and admin permissions. Northeastern University.
+### 🧠 [ThoughtMap](https://github.com/notnit03/thoughtmap)
+`Next.js` `TypeScript` `Groq`
 
-**Flood Detection via CNN and Satellite Image Fusion** — PCA-based fusion of thermal and visible satellite imagery feeding a fine-tuned MobileNet, reaching 96% classification accuracy. Patent filed January 2026. Undergraduate thesis work at VIT; implementation is held by the university.
+Type any thought and see which brain regions it maps to, across four interactive brain views. Early on, the AI kept inventing brain regions that don't exist, so I locked its output to a strict schema. Now it says when it doesn't know instead of guessing.
 
----
+**[Try it live](https://thoughtmap-five.vercel.app)** · [Code](https://github.com/notnit03/thoughtmap)
 
-### Working with
+### 🌍 [AI Multilingual Meeting Notes](https://github.com/notnit03/ai-multilingual-notes-generator)
+`Whisper` `Groq` `FastAPI` `Celery` `Redis` `PostgreSQL` `Next.js`
 
-`Python` `TypeScript` `React` `Next.js` `FastAPI` `Laravel` `PostgreSQL` `MySQL` `Redis` `Celery` `Docker` `AWS` `PyTorch`
+Turns meeting audio in 80+ languages into structured English notes with summaries, action items, and decisions. After running it on 40+ hours of real audio, I traced language drift and hallucinations through the logs and made it 90% more reliable.
 
----
+[Code](https://github.com/notnit03/ai-multilingual-notes-generator)
 
-### Elsewhere
+### 🛰️ Flood detection from satellite images · *Patent*
+`PyTorch` `MobileNet` `PCA image fusion`
 
-[LinkedIn](https://www.linkedin.com/in/nithya-vangala-647641398/) · [Portfolio](https://nithya-vangala-n6vfyo9.gamma.site/) · vangala.n@northeastern.edu
+Fused thermal and visible satellite images to train a CNN that spots floods with 96% accuracy and 18% fewer false alarms. My undergraduate thesis at VIT, patented in January 2026.
 
-Graduating May 2027. Open to new grad software engineering and AI engineering roles.
+## More projects
+
+**[Weather App](https://github.com/notnit03/weather-app)** · A full-stack weather service with a complete records API, CSV and JSON export, and solid error handling. `React` `FastAPI` `SQLAlchemy`
+
+**Campus Clubs & Chapters** · Replaces messy spreadsheets and missed RSVPs with one system for clubs, members, and events, where students, officers, and admins each see only what they should. `MySQL`
+
+**FitLevel** · A fitness app that turns your workouts into an RPG: earn XP, level up, keep streaks, and climb leaderboards. Built with a team of four in a three-week sprint. `Android`
+
+**Movie recommender** · Suggests movies you'll like using collaborative filtering and genre similarity. `Python`
+
+## How I work
+
+- **AI writes fast, I check everything.** I build with Claude Code, Cursor, and Codex every day, and nothing ships until I've read the diff and tested it myself.
+- **Logs over guesses.** When something breaks, I find exactly where and why before I touch the code.
+- **Start small.** I test on small batches before anything touches production or the database.
+
+## Let's talk
+
+[Email me](mailto:vangala.n@northeastern.edu) · [LinkedIn](https://www.linkedin.com/in/nithya-vangala-647641398/)
