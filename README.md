@@ -2,7 +2,7 @@
 
 # Nithya Vangala
 
-<img src="ribbon.svg" alt="" width="100%">
+<img src="ribbon-2.svg" alt="" width="100%">
 
 ### I build AI products people actually use, and I don't ship anything I haven't tried to break first.
 
